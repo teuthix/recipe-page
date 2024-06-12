@@ -1,0 +1,141 @@
+@font-face {
+    font-family: Young-Serif;
+    src: url('./assets/fonts/young-serif/YoungSerif-Regular.ttf');
+}
+
+@font-face {
+    font-family: Outfit;
+    src: url('./assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
+}
+
+:root {
+    --nutmeg: hsl(14, 45%, 36%);
+    --raspberry: hsl(332, 51%, 32%);
+    --white: hsl(0, 0%, 100%);
+    --rose-white: hsl(330, 100%, 98%);
+    --eggshell: hsl(30, 54%, 90%);
+    --light-grey: hsl(30, 18%, 87%);
+    --wenge-brown: hsl(30, 10%, 34%);
+    --dark-charcoal: hsl(24, 5%, 18%);
+}
+
+body {
+    margin: 0;
+}
+
+footer {
+    margin-top: 1.5rem;
+    margin-bottom: 10px;
+    color: var(--wenge-brown);
+}
+
+img {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-family: Young-Serif, Courier;
+    font-weight: 400;
+    font-size: 2.3rem;
+    line-height: 2.6rem;
+    margin: 1.5rem 0;
+}
+
+h2 {
+    color: var(--nutmeg);
+    font-family: Young-Serif, Courier;
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin: 1.5rem 0;
+}
+
+h3 {
+    color: var(--raspberry);
+    font-family: Outfit, sans-serif;
+}
+
+ul, ol {
+    padding: 0 1.2rem 0 1.5rem;
+    margin: 0;
+    
+}
+
+li {
+    position: relative;
+    padding-left: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    margin: 0 0 .8rem;
+}
+
+p, li {
+    color: var(--wenge-brown);
+    font-family: Outfit, sans-serif;
+    line-height: 1.5rem;
+    font-size: 16px;
+}
+
+ol li::marker {
+    color: var(--raspberry);
+    font-family: Outfit, sans-serif;
+    font-weight: 600;
+}
+
+ul li::marker {
+    color: var(--dark-charcoal);
+    font-family: Outfit, sans-serif;
+}
+
+hr {
+    border: 1px solid var(--light-grey);
+    width: 90%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.recipe {
+    margin: 0 2rem;
+}
+
+.preparation {
+    background-color: var(--rose-white);
+    padding: 0 1.4rem;
+    margin: 1rem 0 0;
+}
+
+.bold {
+    font-weight: 600;
+    color: var(--dark-charcoal);
+}
+
+.nutrients-type {
+    margin: .5rem 0 .5rem 3rem;
+}
+
+.nutrients-nums {
+    font-weight: 600;
+    color: var(--nutmeg);
+    left: 13rem;
+    position: absolute;
+    margin: .5rem 0 .5rem 0;
+
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
