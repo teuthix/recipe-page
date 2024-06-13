@@ -21,7 +21,6 @@
 
 body {
     margin: 0 0 2.5rem;
-    /* height: 100%; */
 }
 
 footer {
@@ -151,8 +150,8 @@ hr {
 
     .desktop-card {
         background-color: var(--white);
-        max-width: calc(100% - 15rem);
-        /* width: 50rem; */
+        max-width: 40rem;
+        min-width: calc(100% - 15rem);
         border-radius: 2rem;
         margin: 4rem;
         padding: 3rem;
